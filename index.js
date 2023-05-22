@@ -14,9 +14,8 @@ async function getImage(query){
     let data = dat["data"]
     let x = data[0]
     let url = x["url"]
-    console.log(url)
 
-    console.log("This is the new Url with the queary of dog " + Url)
+    console.log("This is the new Url with the queary of dog " + url)
 }
 
 getImage("dog")
